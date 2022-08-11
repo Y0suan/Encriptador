@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cont-1{
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contend-logo{
+    width:100%;
+    height: 15vh;
+}
+.contend-logo .logo{
+    padding: 40px;
+}
+.form{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form .ingreseTexto{
+    border: 0;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: #0A3871;
+}
+.ingreseTexto::placeholder{
+    color: #0A3871;
+}
+.form p{
+    background-color: #E5E5E5;
+    font-family: 'Inert';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.botones input{
+    width: 49%;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.boton1{
+    background: #0A3871;
+    color: #ffff;
+
+}
+.boton2{
+    background-color: rgba(216, 223, 232, 1);
+    color: #0A3871;
+
+}
+.boton3{
+    background-color: #ffff;
+    color: #0A3871;
+    width: 100%;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contCart{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    background-color:#ffff;
+    height: 90%;
+    width: 90%;
+    margin: 40px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center ;
+    font-family: 'Inter', sans-serif;
+}
+.cart img{
+    background-color: #ffff;
+    height: 304px;
+    width: 336px;
+}
+.texto_cart{
+    width: 336px;
+    height: 132px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #343A40;
+    background-color:#ffff;
+}
+.texto_cart,h2,p{
+    background-color: #ffff;
+    text-align: center;
+}
+.texto_oculto{
+    background-color: #ffff;
+    width: 90%;
+    height: 90%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto_oculto p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(73, 80, 87, 1);
+
+}
+
+.ocultar{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    .cart img{
+        background-color: #ffff;
+        height: 200px;
+        width: 236px;
+        }
+
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont-1{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .form{
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .contCart{
+       width: 100%;
+       height: 30vh;
+       display: flex;
+       justify-content: center;
+    } 
+   .cart{
+    background-color:#ffff;
+    height: 90%;
+    width: 90%;
+    margin: 0px;
+   } 
+   .cart img{
+    background-color: #ffff;
+    height: 200px;
+    width: 236px;
+    }
+    .boton3{
+        width: 90%;
+        height: 67px;
+    }
+    .texto_oculto{
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width:638px){
+    .cart img{
+        display: none;
+        }
+
+}
